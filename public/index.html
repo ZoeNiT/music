@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <title>Ryio音乐室</title>
+<!--   <script>
+    // 通过js，动态获取clientWidth,根据这个值计算出合适的html的font-size值，配合css中用rem做单位，完成移动端适配。css中rem的数值，可以使用插件来计算。
+    //插件比如postcss-petorem 只适用于vue? 待验证。不行就只有自己计算
+    ;
+    (function (doc, win, undefined) {
+      var docEl = doc.documentElement, //获取document的根元素，即html
+        resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize', //获取移动端屏幕是否翻转（手机重力感应等引起屏幕长宽变化之类的）
+        //   判断在window对象中是否有orientationchange属性，因为orientationchange会遇到兼容性问题，有的浏览器不支持，所以这边做了判断来决定是用orientationchange还是resize（思路就是用resizeEvt这个变量来控制用哪个，后面只要用resizeEvt这个变量来监听屏幕是否被调整）
+        recalc = function () {
+          var clientWidth = docEl.clientWidth; //获取html可视区的宽度
+          if (clientWidth === undefined) return;
+          docEl.style.fontSize = 8 * (clientWidth / 960) + 'px'; //根据屏幕宽度，来动态计算html的font-size的大小 这个值可以自己来定
+        };
+      if (doc.addEventListener === undefined) return;
+      win.addEventListener(resizeEvt, recalc, false); //false传入undefined的位置
+      doc.addEventListener('DOMContentLoaded', recalc, false)
+    })(document, window);
+  </script> -->
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

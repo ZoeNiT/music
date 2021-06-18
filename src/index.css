@@ -1,0 +1,17 @@
+/* 通用样式 */
+
+.title {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.text-line {
+  overflow: hidden;
+  /*超出部分隐藏*/
+  white-space: nowrap;
+  /*不换行*/
+  text-overflow: ellipsis;
+  /*超出部分省略号显示*/
+}
