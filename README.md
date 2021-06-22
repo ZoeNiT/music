@@ -32,6 +32,6 @@ npm start
 ```
 
 **欢迎 star，欢迎 issue**
-![](./public/1.png)
-![](./public/2.png)
-![](./public/3.png)
+![](https://github.com/ZoeNiT/music/edit/master/public/1.png)
+![](https://github.com/ZoeNiT/music/edit/master/public/2.png)
+![](https://github.com/ZoeNiT/music/edit/master/public/3.png)
